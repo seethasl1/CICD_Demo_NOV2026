@@ -9,6 +9,7 @@ namespace CICD_Demo_NOV2026.Controllers
         public IActionResult Index()
         {
             ViewBag.Message = "Version 3 - Updated changes";
+            ViewBag.Message = "Using Pull and push changes";
             return View();
         }
 
