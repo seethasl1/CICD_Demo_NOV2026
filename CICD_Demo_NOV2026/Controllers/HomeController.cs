@@ -8,7 +8,7 @@ namespace CICD_Demo_NOV2026.Controllers
     {
         public IActionResult Index()
         {
-            ViewBag.Message = "Version 1 - Initial Deployment";
+            ViewBag.Message = "Version 2 - Updated";
             return View();
         }
 
